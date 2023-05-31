@@ -3,6 +3,8 @@ import { ActionTypes } from "../action-type"
 const initialState = {
     products:[],
 };
+
+
 export const productReducer = (state = initialState, {type,payload})=>{
     switch (type){
         case ActionTypes.SET_PRODUCTS:
@@ -10,7 +12,6 @@ export const productReducer = (state = initialState, {type,payload})=>{
         default:
             return state;
     }
-
 }
 export const selectedproductReducer = (state = {}, {type,payload})=>{
     switch (type){
