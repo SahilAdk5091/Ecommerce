@@ -26,7 +26,6 @@ const ProductComponent = () => {
       </Link>
 
         )
-
       })
     }
     </div>

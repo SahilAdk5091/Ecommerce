@@ -6,8 +6,6 @@ export const setProducts = (products)=>{
     };
 };
 
-
-
 export const selectedProduct = (product)=>{
     return{
         type:ActionTypes.SELECTED_PRODUCT,
