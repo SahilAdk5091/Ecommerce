@@ -22,4 +22,5 @@ const ProductListing = () => {
     </div>
   )
 }
+
 export default ProductListing

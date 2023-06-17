@@ -33,5 +33,4 @@ const ProductComponent = () => {
 </section>
   )
 }
-
 export default ProductComponent

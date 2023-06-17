@@ -17,11 +17,9 @@ const ProductDetail = () => {
         });;
         dispatch(selectedProduct(response.data));
     }
-    
     useEffect(()=>{
         if(productId && productId !== "")fetchProductDetails();
     },[productId])
-
   return (
     <section class="text-gray-600 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
