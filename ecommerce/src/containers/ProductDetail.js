@@ -109,5 +109,4 @@ const ProductDetail = () => {
 </section>
   )
 }
-
 export default ProductDetail
